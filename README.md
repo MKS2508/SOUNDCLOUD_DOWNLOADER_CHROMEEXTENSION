@@ -4,6 +4,8 @@
 
 ![test](https://user-images.githubusercontent.com/60777608/139127999-214ed035-ad29-4ad8-8884-ec4bd123fbce.gif)
 
+DESCARGA LA VERSIÓN 0.1: https://github.com/MKS2508/SOUNDCLOUD_DOWNLOADER_CHROMEEXTENSION/blob/main/build.zip?raw=true
+
 ## Instalación
 
 1. Descargar el archivo 'build.zip' o clonar el repositorio, junto con la carpeta 'build'.
