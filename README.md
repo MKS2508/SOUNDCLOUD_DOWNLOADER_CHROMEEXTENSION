@@ -33,3 +33,12 @@ DESCARGA LA VERSIÓN 0.2: https://github.com/MKS2508/SOUNDCLOUD_DOWNLOADER_CHROM
 NOTA: Importante que la url sea la del track deseado, puesto que soundcloud permite reproducir distintos tracks desde una misma url a través de su reproductor. 
 
 ![image](https://user-images.githubusercontent.com/60777608/139127626-0cbf833a-1ee6-448e-a014-4756180be60c.png)
+
+### Features
+
+#### Add metadata to mp3 files!
+![image](https://user-images.githubusercontent.com/60777608/139325595-faaaa354-808f-4d59-aadb-ed68cd4f13cb.png);
+
+#### Only using Soundcloud API, no 3rd party services!
+
+#### Playlist support (in progress)
