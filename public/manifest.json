@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "0.0.5",
+  "version": "0.2.1",
   "short_name": "SOUNDCLOUD_DL",
   "name": "SOUNDCLOUD DOWNLOADER 🚀",
   "description": "Download track from SoundCloud from actual soundcloud url.)",
