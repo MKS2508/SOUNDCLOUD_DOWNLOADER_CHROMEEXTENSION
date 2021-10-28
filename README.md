@@ -10,6 +10,8 @@ v0.2:
 
 
 DESCARGA LA VERSIÓN 0.1: https://github.com/MKS2508/SOUNDCLOUD_DOWNLOADER_CHROMEEXTENSION/blob/main/build.zip?raw=true
+
+
 DESCARGA LA VERSIÓN 0.2: https://github.com/MKS2508/SOUNDCLOUD_DOWNLOADER_CHROMEEXTENSION/blob/main/build2.zip?raw=true (ACTUAL, EN DESARROLLO)
 
 
