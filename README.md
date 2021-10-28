@@ -1,9 +1,17 @@
 # 🚀 SOUNDCLOUD DOWNLOADER CHROME EXTENSION 🚀
 
-![image](https://user-images.githubusercontent.com/60777608/139136091-db6f33b5-f98d-47ec-a6b1-804856d38266.png)
+![image](https://user-images.githubusercontent.com/60777608/139285295-797f55f5-ad74-4763-aab6-d7134596f46c.png)
+
+v0.1:
 ![test](https://user-images.githubusercontent.com/60777608/139127999-214ed035-ad29-4ad8-8884-ec4bd123fbce.gif)
 
+v0.2:
+![image](https://user-images.githubusercontent.com/60777608/139285825-11d03eef-fbc3-4260-a215-6a1c32c8d7e6.png)
+
+
 DESCARGA LA VERSIÓN 0.1: https://github.com/MKS2508/SOUNDCLOUD_DOWNLOADER_CHROMEEXTENSION/blob/main/build.zip?raw=true
+DESCARGA LA VERSIÓN 0.2: https://github.com/MKS2508/SOUNDCLOUD_DOWNLOADER_CHROMEEXTENSION/blob/main/build2.zip?raw=true (ACTUAL, EN DESARROLLO)
+
 
 ## Instalación
 
