@@ -6,7 +6,7 @@ v0.1:
 ![test](https://user-images.githubusercontent.com/60777608/139127999-214ed035-ad29-4ad8-8884-ec4bd123fbce.gif)
 
 v0.2:
-![image](https://user-images.githubusercontent.com/60777608/139285825-11d03eef-fbc3-4260-a215-6a1c32c8d7e6.png)
+![test2](https://user-images.githubusercontent.com/60777608/139285970-f2fdfd7d-7f98-44d9-a331-ec83deb416ec.gif)
 
 
 DESCARGA LA VERSIÓN 0.1: https://github.com/MKS2508/SOUNDCLOUD_DOWNLOADER_CHROMEEXTENSION/blob/main/build.zip?raw=true
