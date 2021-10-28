@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.5",
+  "short_name": "SOUNDCLOUD_DL",
+  "name": "SOUNDCLOUD DOWNLOADER 🚀",
+  "description": "Download track from SoundCloud from actual soundcloud url.)",
+  "browser_action": {
+    "default_title": "SOUNDCLOUD DOWNLOADER  \uD83D\uDE80",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.bundle.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.bundle.js"]
+    }
+  ],
+  "icons": {
+    "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  },
+  "options_page": "options.html",
+  "permissions": ["activeTab", "storage", "downloads"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

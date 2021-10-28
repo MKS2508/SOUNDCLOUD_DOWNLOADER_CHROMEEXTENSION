@@ -1,33 +1,46 @@
-# 🚀 SOUNDCLOUD DOWNLOADER CHROME EXTENSION 🚀
+# Getting Started with Create React App
 
-![image](https://user-images.githubusercontent.com/60777608/139285295-797f55f5-ad74-4763-aab6-d7134596f46c.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-v0.1:
-![test](https://user-images.githubusercontent.com/60777608/139127999-214ed035-ad29-4ad8-8884-ec4bd123fbce.gif)
+## Available Scripts
 
-v0.2:
-![test2](https://user-images.githubusercontent.com/60777608/139285970-f2fdfd7d-7f98-44d9-a331-ec83deb416ec.gif)
+In the project directory, you can run:
 
+### `yarn start`
 
-DESCARGA LA VERSIÓN 0.1: https://github.com/MKS2508/SOUNDCLOUD_DOWNLOADER_CHROMEEXTENSION/blob/main/build.zip?raw=true
-DESCARGA LA VERSIÓN 0.2: https://github.com/MKS2508/SOUNDCLOUD_DOWNLOADER_CHROMEEXTENSION/blob/main/build2.zip?raw=true (ACTUAL, EN DESARROLLO)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Instalación
+### `yarn test`
 
-1. Descargar el archivo 'build.zip' o clonar el repositorio, junto con la carpeta 'build'.
-2. Descomprimir el archivo en la ruta deseada.
-3. Abrir navegador (Basado en CHROME) e ir a la siguiente url: chrome://extensions/
-4. Activar el modo desarrollador, en el botón de la esquina superior derecha.
-5. Pulsar en 'Cargar descomprimida' y selecciona la carpeta 'build' de la ruta especificada anteriormente.
-6. Listo, la extensión esta añadida!
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Modo de uso
+### `yarn build`
 
-1. Acceder a la url de un track de soundcloud [IMPORTANTE QUE SEA DE UN TRACK], por ejemplo: https://soundcloud.com/lil_peep/your-favorite-dress?in=lil_peep/sets/lil-peep-lil-tracy-castles-ii
-2. Abrir la extensión desde el menú de extensiones y seleccionar la extensión, estó nos abrirá un desplegable con la información de la canción actual y el botón de descarga. 
-3. La descarga se iniciará a través del navegador. 😁
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-NOTA: Importante que la url sea la del track deseado, puesto que soundcloud permite reproducir distintos tracks desde una misma url a través de su reproductor. 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![image](https://user-images.githubusercontent.com/60777608/139127626-0cbf833a-1ee6-448e-a014-4756180be60c.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
