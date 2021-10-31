@@ -5,6 +5,10 @@ import Soundcloud from "soundcloud.ts"
 import {Button, CustomCard} from '@tsamantanis/react-glassmorphism'
 import '@tsamantanis/react-glassmorphism/dist/index.css'
 import vinyl from './vinyl.svg'
+
+// @ts-ignore
+import ID3Writer from 'browser-id3-writer'
+import snoop from './6os.gif'
 import pepe from './3nRK.gif'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner"
@@ -12,9 +16,8 @@ import soundcloudsvg from './soundcloud.svg'
 import soundcloudgif1 from './soundcloudgif1.gif'
 import soundcloudgif2 from './soundcloudgif2.gif'
 import soundcloudgif3 from './soundcloudgif3.gif'
-// @ts-ignore
-import ID3Writer from 'browser-id3-writer'
-import snoop from './6os.gif'
+import ytdl from 'ytdl-core';
+const streamToBlob = require('stream-to-blob')
 
 
 function App() {
@@ -23,6 +26,35 @@ function App() {
     const getTitle = async (url: string) => {
         const streamDetails = await soundcloud.util.getTitle(url)
         setContent(streamDetails);
+    }
+    const getTYt = async (url: string) => {
+        console.log('error aki?')
+        debugger;
+        const yturl = ytdl('https://www.youtube.com/watch?v=5YZ6lRYXJE4')
+
+
+        const blob = await streamToBlob(yturl)
+        const blob2 = new Blob([blob], {type:'audio/mp3'});
+        const blob3 = new File([blob],'audio.mp3');
+        const blob4 = new File([blob2],'audio.mp3');
+
+        const urlformblob = URL.createObjectURL(blob3)
+        const urlformblob2 = URL.createObjectURL(blob4)
+
+        console.log({blob:blob2})
+
+        console.log({url:urlformblob})
+        chrome.downloads.download({url:urlformblob, filename: 'video.mp3'})
+        chrome.downloads.download({url:urlformblob2, filename: 'video.mp3'})
+
+       // console.log(blob)
+        // @ts-ignore
+                console.log("Stream complete");
+
+        //const urlobj = new Blob([yturl]);
+       // console.log({yturl: yturl, urlobj:'urlobj'})
+        //chrome.downloads.download({url:'urlobj'})
+
     }
 
     const getArtwork = async (url: string) => {
@@ -99,6 +131,8 @@ function App() {
         chrome.tabs.query({currentWindow: true, active: true}, tabs => {
             const currentTabID = tabs[0].id!;
             const actualTabURL = tabs[0].url;
+            getTYt('')
+
             // @ts-ignore
             seturlContent(actualTabURL)
         });
